@@ -2378,6 +2378,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     device_specific: true,
+    allow_undefined_symbols: true
 }
 
 cc_prebuilt_library_shared {
